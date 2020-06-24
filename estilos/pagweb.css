@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #3a3d47;
+	font-family: verdana;
+}
+.container{
+	width: 1000px;
+	background: white;
+	margin: 20px auto;
+}
+.superior{
+	background: #1551a1;
+	overflow:hidden; /*Para que se encuentren flotando*/
+	height: 150px;
+}
+.logo{
+	float: left;
+	width: 200px;
+	margin: 17px;
+
+}
+.menu{
+	float: left;
+	padding: 70px;
+}
+.opciones li{
+	float: left;
+	list-style: none;/*Para quitar puntos de viñetas*/
+	padding: 0;
+}
+.opciones li a{
+	background-color: blue;
+	color: white;/*Para color a viñetas*/
+	padding: 10px 0;/*Para hacer mas grande la lista*/
+	text-decoration: none;/*Para quitar subrayado a viñetas*/
+	border: 8px solid blue;
+}
+
+.cuerpo{
+	overflow: hidden;
+}
+.caja{
+	float: left;
+	width: 300px;
+	margin:8px;
+	border: 1px solid;
+}
+.titulo{
+	color: blue;
+	text-align: center;
+}
+.subtitulo{
+	background:#1551a1; 
+	float: left;
+}
+.servicios{
+	color: white;
+	text-align: center;
+	padding: 8px 0;
+}
+
+.efecto:hover{
+	opacity: 0.9;
+	cursor: pointer;
+	color: black;
+}
+.contenido{
+	padding: 20px;
+	text-align: justify;
+}
+.pie{
+	height: 160px;
+	background-color: #1551a1;
+	color: white;
+}
+.aba{
+	height: 130px;
+	margin: 23px;
+}
+.en{
+	width: 1000px;
+}

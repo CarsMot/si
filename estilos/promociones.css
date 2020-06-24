@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #3a3d47;
+	font-family: verdana;
+}
+.container{
+	width: 1000px;
+	background: #A5C9FA;
+	margin: 20px auto;
+}
+.superior{
+	background: black;
+	overflow:hidden; /*Para que se encuentren flotando*/
+	height: 150px;
+}
+.logo{
+	float: left;
+	width: 200px;
+	margin: 13px
+}
+.menu{
+	float: left;
+	padding:70px;
+}
+.opciones li{
+	float: left;
+	list-style: none;/*Para quitar puntos de viñetas*/
+}
+.opciones li a{
+	background-color: #A5C9FA;
+	color: black;/*Para color a viñetas*/
+	padding: 11px 0;/*Para hacer mas grande la lista*/
+	text-decoration: none;/*Para quitar subrayado a viñetas*/
+	border: 8px solid #A5C9FA;
+}
+.efecto:hover{
+	opacity: 0.9;
+	cursor: pointer;
+	color: purple;
+}
+
+h1{color: white; text-align: center;}
+h2{color: blue} h4{color: blue; text-align: center;}
+.cuerpo{
+	overflow: hidden;
+	margin: 20px;
+}
+.caja{
+	float: left;
+	width: 450px;
+	margin:8px;
+	border: 1px solid;
+}
+.titulo{
+	color: blue;
+	text-align: center;
+}
+.subtitulo{
+	background:black; 
+	float: left;
+}
+.servicios{
+	color: white;
+	text-align: center;
+	padding: 8px 0;
+}
+
+.efecto:hover{
+	opacity: 0.9;
+	cursor: pointer;
+	color: black;
+}
+.contenido{
+	padding: 20px;
+	text-align: justify;
+}
+
+.pie{
+	height: 160px;
+	background-color:black;
+	color: white;
+}
+.aba{
+	height: 130px;
+	margin: 23px;
+}
+

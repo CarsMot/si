@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #3a3d47;
+	font-family: verdana;
+}
+.container{
+	width: 1000px;
+	background: #44F6E6;
+	margin: 20px auto;
+}
+.superior{
+	background: #020606;
+	overflow:hidden; /*Para que se encuentren flotando*/
+	height: 150px;
+}
+.logo{
+	float: left;
+	width: 200px;
+	margin: 19px;
+}
+.menu{
+	float: left;
+	padding: 70px;
+}
+.opciones li{
+	float: left;
+	list-style: none;/*Para quitar puntos de viñetas*/
+}
+.opciones li a{
+	background-color: #44F6E6;
+	color: green;/*Para color a viñetas*/
+	padding: 11px 0;/*Para hacer mas grande la lista*/
+	text-decoration: none;/*Para quitar subrayado a viñetas*/
+	border: 8px solid #44F6E6;
+}
+.cuerpo{
+	overflow: hidden;
+}
+.cuerpo h1{
+ text-align: center;
+}
+	table,th,td{
+		border: 2px solid #44F6E6;
+		border-collapse: collapse;
+		background-color:#707D7E;
+		padding: 10px;
+		text-align: center;
+	}
+	th{
+		color: black;
+	}
+	td{
+		color: white;
+	}
+
+.pie{
+	height: 160px;
+	background-color:black;
+	color: white;
+}
+.efecto:hover{
+	opacity: 0.9;
+	cursor: pointer;
+	color: white;
+}
+.aba{
+	height: 130px;
+	margin: 23px;
+}

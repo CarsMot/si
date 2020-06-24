@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align:center;
+}
+.superior{
+	background:  black;
+	overflow:hidden; /*Para que se encuentren flotando*/
+	height: 145px;
+	padding: 10px;
+}
+.logo{
+	float: left;
+	width: 200px;
+}
+.menu{
+	float: left;
+	padding: 75px;
+}
+.opciones li{
+	float: left;
+	list-style: none; /*Para quitar puntos de viñetas*/
+}
+.opciones li a{
+	color: white;/*Para color a viñetas*/
+	padding: 20px;/*Para separar a viñetas*/
+	text-decoration: none;/*Para quitar subrayado a viñetas*/
+	border: 2px solid blue; /*lineas qu elo dividen*/
+	margin-color: blue;
+}
+.opciones li a:hover{
+	background: blue;
+}
+
+.form-register{
+	width: 430px;
+	background-color: black;
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+body{
+	background-image: url(../imagenes/fondo.jpg);
+}
+h2{
+	color:blue ;
+}
+h1{
+	color:white;
+}
+strong{
+	color: white;
+}
+h3{color: white;}
+p{color: blue;}
+.form-register h1{
+	font-size: 22px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.controls{
+	width: 100%
+	background-color:blue;
+	padding: 10px;
+	border-radius: 2px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: 'calibri';
+	font-size: 18px;
+}
+
+.form-register .botons{
+	width: 100%;
+	background-color: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}
+.pie{
+	height: 177px;
+	background-color: black;
+	text-align: left;
+	color: blue;
+}
+.aba{
+	height: 130px;
+	margin: 23px;
+}
